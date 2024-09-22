@@ -30,7 +30,7 @@ nav ul li{
 
 @media(max-width: 1000px){
     .logo{
-        width: 140px;
+        width: 240px;
     }
     nav ul li{
         margin: 10px 15px;
