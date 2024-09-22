@@ -25,7 +25,7 @@ const navbar = () => {
         <Link to="hero" smooth={true} offset={0} duration={500}><img src={logo} alt="" className='logo' /></Link>
         <ul className={mobileMenu?"":'hide-mobile-menu'}>
             <li><Link to="hero" smooth={true} offset={0} duration={500}>Home</Link></li>
-            <li><Link to="program" smooth={true} offset={0} duration={500}>Program</Link></li>
+            <li><Link to="about" smooth={true} offset={550} duration={500}>Program</Link></li>
             <li><Link to="about" smooth={true} offset={-100} duration={500}>About us</Link></li>
             <li><Link to="about" smooth={true} offset={550} duration={500}><button className='btn'>Contact Us</button></Link></li>
         </ul>
